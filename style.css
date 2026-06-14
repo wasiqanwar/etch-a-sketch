@@ -1,0 +1,14 @@
+#grid {
+	width: 960px;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	border: black solid 1px;
+	display: flex;
+	padding: 5px;
+	margin: 5px;
+}
