@@ -1,5 +1,11 @@
-#grid {
+#grid-parent {
 	width: 960px;
+	padding: 25px;
+}
+
+#grid {
+	border: black solid 1px;
+	width: fit-content;
 }
 
 .row {
@@ -7,8 +13,11 @@
 }
 
 .column {
-	border: black solid 1px;
 	display: flex;
+	padding: 4px;
+}
+
+#new-size {
+	margin: 25px 0 0 25px;
 	padding: 5px;
-	margin: 5px;
 }
